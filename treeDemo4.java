@@ -34,11 +34,27 @@ class treeDemo{
 				
 		third.name = "===== Sexy Tree =====" + "\n";
 		third.Home2Wildlyfe = false;
-		third.leaves = new leaf[1];
+		third.leaves = new leaf[0];
 		third.wood = new String[] {"trunk", "branches", "roots"};
 		third.seeds = "round";
 		third.isEvergreen = true;
 		third.howTall = 69;
+		
+		
+		tree fourth = new tree(1);
+		
+		
+		fourth.name = "===== Lonely Tree =====" + "\n";
+		fourth.Home2Wildlyfe = false;
+		fourth.wood = new String[] {"trunk", "branches", "roots"};
+		fourth.seeds = "round";
+		fourth.isEvergreen = true;
+		fourth.howTall = 55;
+		
+		
+		tree fifth = new tree(555, "gnarly", "black", "needles");
+		
+		
 	
 	System.out.println(first.toString());
 	System.out.print("During the Fall Season, "); first.ChangesDuringFall(first.isEvergreen);
@@ -61,10 +77,12 @@ class treeDemo{
 	System.out.println("You may age but she does not. No she don't, no she don't  (TM)");
 	System.out.println();
 	
+	System.out.println(fifth.toString());
+	
 	//first.grow();first.grow();first.grow();first.grow();first.grow();
 	//System.out.println(first.toString());
 	//System.out.println();
 	
-	
+	System.out.println(fifth.toString("ShowTheseLeaves"));
 	}
 }
