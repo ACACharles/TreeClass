@@ -7,7 +7,6 @@ class leaf{
 	leaf(String t, String c, String b){
 	void setColor(String C){
 	public String toString(){
-}
 
 class tree{
 	
@@ -19,6 +18,11 @@ class tree{
 	boolean isEvergreen;
 	int howTall;
 	
+	tree(){
+	tree(int numOfLeaves){
+	tree(int numOfLeaves, String t, String c, String b){
+	tree(int numOfLeaves, String t, String c, String b, String N, 
+			boolean H2WL, String S, boolean EVER, int H){
 	void grow(){
 	void ChangesDuringFall(boolean DoesItStayGreenAllYear){
 	void ChangesDuringWinter(boolean DoesItStayGreenAllYear){
@@ -26,4 +30,5 @@ class tree{
 	void ChangesDuringSummer(boolean DoesItStayGreenAllYear){
 	tree bowchickawowwow(){
 	public String toString(){
-}
+	public String toString(int ShowTheseLeaves){
+	public String toString(String ShortHand){
