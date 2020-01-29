@@ -46,16 +46,39 @@ class treeDemo2
 		
 		third.grow();
 				System.out.println(third);
-
+				
+	
+				
 		
-	
-	
-	
-	
-	
-	
-	
+
+	tree four = new tree();
+		
+		four.name = "Cherry";
+		four.Home2Wildlyfe = false;
+		four.leaves = new leaf [2];
+		four.wood = new String[] {"trunk,stick"};
+		four.isEvergreen = false;
+		four.howTall = 24;
+		four.seeds = "circle";
+	System.out.println(four);
+			
+			tree five = new tree();
+			
+			tree six = new tree(5);
+			System.out.println(six);
+			
+			tree seven = new tree(5, "round", "red", "blue");
+			System.out.println(seven);
+			
+			
+		
+		
+		
 	}
+	
+
+	
+	
 
 
 
