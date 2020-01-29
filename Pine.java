@@ -40,5 +40,18 @@ class Pine {
 			third.grow();
 				
 				System.out.println(third);
+		
+		tree fourth = new tree(400);
+			
+				System.out.println(fourth);
+		
+		tree fifth = new tree(200, "La", "Vida", "Loca");
+			
+				System.out.println(fifth);
+		
+		tree sixth = new tree(300, "La", "Vida", "Loca", "Shebang", true, "Wood", false, 100);
+			
+					System.out.println(sixth);
+		
 	}
 }
