@@ -55,13 +55,25 @@ class treeDemo{
 		tree fifth = new tree(555, "gnarly", "black", "needles");
 		
 		
+		fifth.name = "===== Badass Tree =====" + "\n";
+		fifth.Home2Wildlyfe = true;
+		fifth.wood = new String[] {"trunk", "branches", "roots"};
+		fifth.seeds = "EVVVILLL";
+		fifth.isEvergreen = true;
+		fifth.howTall = 20;
+		
+		
+		tree sixth = new tree(350, "salty", "chocolate", "round", "===== Tree Fiddy ===== \n",	true, "Square", false, 350);
+		sixth.toString(350);
+
+		tree seventh = sixth.bowchickawowwow();
 	
 	System.out.println(first.toString());
 	System.out.print("During the Fall Season, "); first.ChangesDuringFall(first.isEvergreen);
 	System.out.print("In Winter, "); first.ChangesDuringWinter(first.isEvergreen);
 	System.out.print("In Spring time, "); first.ChangesDuringSpring(first.isEvergreen);
 	System.out.print("And when Summer hits, "); first.ChangesDuringSummer(first.isEvergreen);
-	System.out.println("This tree grows 1 ft every season!"); first.grow();first.grow();first.grow();first.grow();
+	System.out.println("This tree grows 1 ft every season!"); first.grow();first.grow();
 	System.out.println("This tree is now " + first.howTall + " ft tall.  Damn that is a big ass tree.");
 	System.out.println();
 	
@@ -77,12 +89,20 @@ class treeDemo{
 	System.out.println("You may age but she does not. No she don't, no she don't  (TM)");
 	System.out.println();
 	
+	System.out.println(fourth.toString());
+	System.out.println();
 	System.out.println(fifth.toString());
+	System.out.print("During the Fall Season, "); fifth.ChangesDuringFall(fifth.isEvergreen);
+	System.out.print("In Winter, "); fifth.ChangesDuringWinter(fifth.isEvergreen);
+	System.out.print("In Spring time, "); fifth.ChangesDuringSpring(fifth.isEvergreen);
+	System.out.print("And when Summer hits, "); fifth.ChangesDuringSummer(fifth.isEvergreen);
+	System.out.println("This tree grows a 2 ft through the seasons!");
+	System.out.println("This tree is now " + fifth.howTall + " ft tall.  Now that is a badass tree.");
+	System.out.println();
+	System.out.println(sixth.toString());
+	System.out.println();
 	
-	//first.grow();first.grow();first.grow();first.grow();first.grow();
-	//System.out.println(first.toString());
-	//System.out.println();
 	
-	System.out.println(fifth.toString("ShowTheseLeaves"));
+	
 	}
 }
