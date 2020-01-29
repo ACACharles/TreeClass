@@ -1,0 +1,29 @@
+class leaf{
+	String type;
+	public String color;
+	String shape;
+	
+	leaf(){
+	leaf(String t, String c, String b){
+	void setColor(String C){
+	public String toString(){
+}
+
+class tree{
+	
+	String name;
+	boolean Home2Wildlyfe;
+	public leaf[] leaves;
+	String[] wood;
+	String seeds;
+	boolean isEvergreen;
+	int howTall;
+	
+	void grow(){
+	void ChangesDuringFall(boolean DoesItStayGreenAllYear){
+	void ChangesDuringWinter(boolean DoesItStayGreenAllYear){
+	void ChangesDuringSpring(boolean DoesItStayGreenAllYear){
+	void ChangesDuringSummer(boolean DoesItStayGreenAllYear){
+	tree bowchickawowwow(){
+	public String toString(){
+}
