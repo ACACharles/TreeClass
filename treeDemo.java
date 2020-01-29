@@ -39,16 +39,40 @@ WalnutTree.seeds = "walnuts";
 WalnutTree.isEvergreen = true;
 WalnutTree.howTall = 50;
 
+tree AppleTree = new tree(1000);
+AppleTree.name = "AppleTree";
+AppleTree.Home2Wildlyfe = true;
+AppleTree.wood = new String[]{"roots","trunk","branches"};
+AppleTree.seeds = "apples";
+AppleTree.isEvergreen = false;
+AppleTree.howTall = 15;
+
+tree OrangeTree = new tree(2000," oval ","Green "," rounded crown ");
+OrangeTree.name = "OrangeTree";
+OrangeTree.Home2Wildlyfe = true;
+OrangeTree.wood = new String[]{"roots","trunk","branches"};
+OrangeTree.seeds = "oranges";
+OrangeTree.isEvergreen = true;
+OrangeTree.howTall = 22;
+
+tree PeachTree = new tree(3000,"rounded crown ","Dark Green ","oval ","PeachTree",true,"peaches",true,25);
+
+
 System.out.println(OakTree.toString());
 System.out.println();
 System.out.println(PecanTree.toString());
 System.out.println();
 System.out.println(WalnutTree.toString());
 System.out.println();
-
+System.out.println(AppleTree.toString());
+System.out.println();
+System.out.println(OrangeTree.toString());
+System.out.println();
+System.out.println(PeachTree.toString());
+System.out.println();
 OakTree.grow();
 System.out.println(OakTree.toString());
-
+System.out.println();
 
 OakTree.ChangesDuringWinter(OakTree.isEvergreen);
 System.out.println();
@@ -59,8 +83,13 @@ System.out.println();
 OakTree.ChangesDuringFall(OakTree.isEvergreen);
 System.out.println();
 
+System.out.println(OrangeTree.toString(5));
 
-System.out.println(OakTree);
+System.out.println(PeachTree.toString("What do you do"));
+
+
+
+
 
 
 	
