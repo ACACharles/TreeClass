@@ -17,7 +17,7 @@ OakTree.name = "OakTree";
 OakTree.Home2Wildlyfe = true;
 OakTree.leaves = new leaf[1000];
 OakTree.wood = new String[]{"roots","trunk","branches"};
-OakTree.seeds = "acorns";
+OakTree.seeds = " acorns";
 OakTree.isEvergreen = false;
 OakTree.howTall = 100;
 
@@ -26,7 +26,7 @@ PecanTree.name = "PecanTree";
 PecanTree.Home2Wildlyfe = true;
 PecanTree.leaves = new leaf[20];
 PecanTree.wood = new String[]{"roots","trunk","branches"};
-PecanTree.seeds = "pecans";
+PecanTree.seeds = " pecans";
 PecanTree.isEvergreen = false;
 PecanTree.howTall = 144;
 
@@ -35,7 +35,7 @@ WalnutTree.name = "WalnutTree";
 WalnutTree.Home2Wildlyfe = true;
 WalnutTree.leaves = new leaf[200];
 WalnutTree.wood = new String[]{"roots","trunk","branches"};
-WalnutTree.seeds = "walnuts";
+WalnutTree.seeds = " walnuts";
 WalnutTree.isEvergreen = true;
 WalnutTree.howTall = 50;
 
@@ -43,7 +43,7 @@ tree AppleTree = new tree(1000);
 AppleTree.name = "AppleTree";
 AppleTree.Home2Wildlyfe = true;
 AppleTree.wood = new String[]{"roots","trunk","branches"};
-AppleTree.seeds = "apples";
+AppleTree.seeds = " apples";
 AppleTree.isEvergreen = false;
 AppleTree.howTall = 15;
 
@@ -51,11 +51,13 @@ tree OrangeTree = new tree(2000," oval ","Green "," rounded crown ");
 OrangeTree.name = "OrangeTree";
 OrangeTree.Home2Wildlyfe = true;
 OrangeTree.wood = new String[]{"roots","trunk","branches"};
-OrangeTree.seeds = "oranges";
+OrangeTree.seeds = " oranges";
 OrangeTree.isEvergreen = true;
 OrangeTree.howTall = 22;
 
-tree PeachTree = new tree(3000,"rounded crown ","Dark Green ","oval ","PeachTree",true,"peaches",true,25);
+tree PeachTree = new tree(3000,"rounded crown ","Dark Green ","oval ","PeachTree",true," peaches",true,25);
+
+tree PineTree = OrangeTree.bowchickawowwow();
 
 
 System.out.println(OakTree.toString());
@@ -82,17 +84,17 @@ OakTree.ChangesDuringSummer(OakTree.isEvergreen);
 System.out.println();
 OakTree.ChangesDuringFall(OakTree.isEvergreen);
 System.out.println();
+System.out.println(OakTree.howTall); //The tree grows during the seasons
 
 System.out.println(OrangeTree.toString(5));
 
 System.out.println(PeachTree.toString("What do you do"));
 
+System.out.println(PineTree.bowchickawowwow());
 
 
 
 
-
-	
 
 	}
 
