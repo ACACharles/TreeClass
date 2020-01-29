@@ -39,7 +39,7 @@ tree Apple = new tree(50);
 tree Pear = new tree(50,"type","color","style");
 tree Spruce= new tree(50,"type","color","style","Spruce",
 			true,"round", true,30);
-
+			
 System.out.println(Spruce);
 System.out.println(Pear);
 System.out.println(Apple);
@@ -48,7 +48,7 @@ System.out.println(Birch);
 Birch.grow();
 System.out.println(Birch);
 
-//public String toString(int ShowTheseLeaves){
-//	public String toString(String ShortHand){
+System.out.println(Pear.toString(6));
+System.out.println(Pine.toString("Tree3"));
 }
 }
