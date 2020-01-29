@@ -30,6 +30,8 @@ class Treedemo6 {
 		
 		tree fourth = new tree(1, "jaundice", "corona", "influenza", "bad tree", false, "bad tree seeds",  false, 15);
 		
+		System.out.print(fourth.bowchickawowwow());
+		
 		System.out.println(first + "\n");
 		
 		first.grow();
