@@ -55,21 +55,47 @@ class treeDemo2
 		
 		four.name = "Cherry";
 		four.Home2Wildlyfe = false;
-		four.leaves = new leaf [2];
+		four.leaves = new leaf [10];
 		four.wood = new String[] {"trunk,stick"};
 		four.isEvergreen = false;
 		four.howTall = 24;
 		four.seeds = "circle";
 	System.out.println(four);
 			
+			
 			tree five = new tree();
 			
 			tree six = new tree(5);
 			System.out.println(six);
 			
-			tree seven = new tree(5, "round", "red", "blue");
+			tree seven = new tree(5, "round ", "red ", "blue ");
 			System.out.println(seven);
 			
+			System.out.println(seven.toString(5));
+		
+				System.out.println(seven.toString(""));
+			
+		
+		
+		tree eight = seven.bowchickawowwow();
+			System.out.println(eight.toString(5));
+				
+				
+			
+			
+					
+					
+						
+					
+
+
+			
+			
+			 
+			 
+			
+			
+		
 			
 		
 		
