@@ -1,12 +1,15 @@
 class YeOldeOrchard
 {
+	static	tree first = new tree();
+	static	tree second = new tree();
+	static	tree third = new tree();
+	static	tree fourth = third.bowchickawowwow();
+	static	tree fifth = new tree(350);
+	static	tree sixth = new tree(80085, "Cork", "Corky", "Corkest");
+	static	tree seventh = new tree(1337, "Willow", "blue", "sad", "Old Faithful", false, "pathetic", false, 8008134);
+	
 	public static void main(String[] treestuff)
 	{
-		tree first = new tree();
-		tree second = new tree();
-		tree third = new tree();
-		tree fourth = third.bowchickawowwow();
-		
 		first.name = "prickly boy";
 		first.Home2Wildlyfe = true;
 		first.leaves = new leaf[99];
@@ -78,5 +81,24 @@ class YeOldeOrchard
 		System.out.println("Grow baby cactaur Grow!!!");
 		fourth.grow();
 		System.out.println(fourth.toString());
-	}
+		System.out.println();
+		
+		System.out.println("Grow (insert tree name here) Grow!!!");
+		fifth.grow();
+		System.out.println(fifth.toString());
+		System.out.println();
+		
+		System.out.println("Cork, Corkin, Corker!!!");
+		sixth.grow();
+		System.out.println(sixth.toString());
+		System.out.println();
+		
+		System.out.println("Grow Ol' Faithful Grow.");
+		seventh.grow();
+		System.out.println(seventh.toString());
+		System.out.println();
+		
+		System.out.println(first.toString(10));
+		System.out.println(second.toString("Surprise!"));	
+	}	
 }
