@@ -95,6 +95,26 @@ class YeOldeOrchard
 		
 		System.out.println("Grow Ol' Faithful Grow.");
 		seventh.grow();
+		System.out.println(seventh.toString(10));
+		System.out.println("\nSPRING");
+		seventh.ChangesDuringSpring(false);
+		for(leaf L : seventh.leaves)
+			System.out.println(L + ", ");
+		System.out.println(seventh.toString());
+		System.out.println("\nSUMMER");
+		seventh.ChangesDuringSummer(false);
+		for(leaf L : seventh.leaves)
+			System.out.println(L + ", ");
+		System.out.println(seventh.toString());
+		System.out.println("\nFALL");
+		seventh.ChangesDuringFall(false);
+		for(leaf L : seventh.leaves)
+			System.out.println(L + ", ");
+		System.out.println(seventh.toString());
+		System.out.println("\nWINTER");
+		seventh.ChangesDuringWinter(false);
+		for(leaf L : seventh.leaves)
+			System.out.println(L + ", ");
 		System.out.println(seventh.toString());
 		System.out.println();
 		
