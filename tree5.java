@@ -19,7 +19,7 @@ class tree5//name of class
 		
 		
 		System.out.println(mamas);//Showing the parameters that you constructed to mamas earlier
-		System.out.println(mamas.toString(2));//using toString int parameter to print mamas leafs 5 times if i remember correctly
+		System.out.println(mamas.toString(2));//using toString int parameter to print mamas leafs 2 times if i remember correctly
 		System.out.println(mamas.toString(" "));//using toString String parameter to print mamas whatever toString with String parameter
 		
 		
